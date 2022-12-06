@@ -17,3 +17,11 @@ Assign the value 7 to variable a
 
 var a;
 a = 7; */
+
+/* 4.
+Assign the contents of a to variable b
+
+var a;
+a = 7;
+var b;
+b = a; */
