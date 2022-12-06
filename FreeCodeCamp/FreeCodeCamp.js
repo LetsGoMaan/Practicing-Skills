@@ -84,3 +84,8 @@ const sum = 10 + 10;
 Change the 0 so the difference is 12.
 
 const difference = 45 - 33; */
+
+/* 13. 
+Change the 0 so that product will equal 80.
+
+const product = 8 * 10; */
