@@ -100,3 +100,9 @@ Change the code to use the ++ operator on myVar.
 
 let myVar = 87;
 myVar++; */
+
+/* 16.
+Change the code to use the -- operator on myVar.
+
+let myVar = 11;
+myVar--; */
