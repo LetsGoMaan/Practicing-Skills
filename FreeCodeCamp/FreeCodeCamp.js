@@ -25,3 +25,8 @@ var a;
 a = 7;
 var b;
 b = a; */
+
+/* 5.
+Define a variable a with var and initialize it to a value of 9
+
+var a = 9; */
