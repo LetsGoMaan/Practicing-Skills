@@ -11,3 +11,9 @@ You should create a multi-line style comment that contains at least five letters
 Use the var keyword to create a variable called myName
 
 var myName; */
+
+/* 3.
+Assign the value 7 to variable a
+
+var a;
+a = 7; */
