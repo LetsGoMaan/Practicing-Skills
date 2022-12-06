@@ -106,3 +106,8 @@ Change the code to use the -- operator on myVar.
 
 let myVar = 11;
 myVar--; */
+
+/* 17.
+Create a variable myDecimal and give it a decimal value with a fractional part (e.g. 5.7).
+
+const myDecimal = 99.9; */
