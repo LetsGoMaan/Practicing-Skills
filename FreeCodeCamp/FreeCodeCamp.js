@@ -183,3 +183,12 @@ Change the provided string to a string with single quotes at the beginning and e
 Right now, the <a> tag in the string uses double quotes everywhere. You will need to change the outer quotes to single quotes so you can remove the escape characters.
 
 const myStr = '<a href="http://www.example.com" target="_blank">Link</a>'; */
+
+/* 27.
+Assign the following three lines of text into the single variable myStr using escape sequences.
+
+FirstLine
+    \SecondLine
+ThirdLine
+
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; */
