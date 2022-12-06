@@ -95,3 +95,8 @@ Change the 0 so that the quotient is equal to 2.
 
 const quotient = 66 / 33; */
 
+/* 15.
+Change the code to use the ++ operator on myVar.
+
+let myVar = 87;
+myVar++; */
