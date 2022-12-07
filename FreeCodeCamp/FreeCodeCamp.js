@@ -325,3 +325,9 @@ Use the .pop() function to remove the last item from myArray and assign the popp
 
 const myArray = [["John", 23], ["cat", 2]];
 const removedFromMyArray = myArray.pop(); */
+
+/* 46.
+Use the .shift() function to remove the first item from myArray and assign the "shifted off" value to a new variable, removedFromMyArray.
+
+const myArray = [["John", 23], ["dog", 3]];
+const removedFromMyArray = myArray.shift(); */
