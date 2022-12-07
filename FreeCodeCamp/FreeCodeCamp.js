@@ -281,3 +281,8 @@ Modify the new array myArray so that it contains both a string and a number (in 
 
 const myArray = ["string", 2];
  */
+
+/* 40.
+Create a nested array called myArray.
+
+const myArray = [[], []]; */
