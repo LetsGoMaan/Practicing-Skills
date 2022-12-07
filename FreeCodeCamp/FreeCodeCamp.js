@@ -363,3 +363,13 @@ function reusableFunction () {
   }
   
   reusableFunction(); */
+
+/* 50.
+Create a function called functionWithArgs that accepts two arguments and outputs their sum to the dev console.
+Call the function with two numbers as arguments.
+
+function functionWithArgs (a, b) {
+    console.log(a + b);
+  }
+  
+  functionWithArgs(2, 4); */
