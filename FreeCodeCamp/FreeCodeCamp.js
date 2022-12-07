@@ -238,7 +238,13 @@ firstLetterOfLastName = lastName[0]; */
 /* 34.
 Correct the assignment to myStr so it contains the string value of Hello World using the approach shown in the example above.
 
-
 let myStr = "Jello World";
 
 myStr = "Hello World";  */
+
+/* 35.
+Let's try to set thirdLetterOfLastName to equal the third letter of the lastName variable using bracket notation.
+
+const lastName = "Lovelace";
+
+const thirdLetterOfLastName = lastName[2];  */
