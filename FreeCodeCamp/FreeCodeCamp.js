@@ -248,3 +248,9 @@ Let's try to set thirdLetterOfLastName to equal the third letter of the lastName
 const lastName = "Lovelace";
 
 const thirdLetterOfLastName = lastName[2];  */
+
+/* 36.
+Use bracket notation to find the last character in the lastName variable.
+
+const lastName = "Lovelace";
+const lastLetterOfLastName = lastName[lastName.length - 1];  */
