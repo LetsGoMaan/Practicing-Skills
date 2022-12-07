@@ -203,3 +203,9 @@ Build myStr over several lines by concatenating these two strings: This is the f
 
 let myStr = "This is the first sentence. ";
 myStr+= "This is the second sentence." */
+
+/* 30. 
+Set myName to a string equal to your name and build myStr with myName between the strings My name is and and I am well!
+
+const myName = "Andrey";
+const myStr = "My name is " + myName + "and I am well!" ; */
