@@ -209,3 +209,10 @@ Set myName to a string equal to your name and build myStr with myName between th
 
 const myName = "Andrey";
 const myStr = "My name is " + myName + "and I am well!" ; */
+
+/* 31.
+Set someAdjective to a string of at least 3 characters and append it to myStr using the += operator.
+
+const someAdjective = "cool";
+let myStr = "Learning to code is ";
+myStr += someAdjective */
