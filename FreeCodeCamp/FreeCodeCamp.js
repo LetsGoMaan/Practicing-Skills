@@ -216,3 +216,12 @@ Set someAdjective to a string of at least 3 characters and append it to myStr us
 const someAdjective = "cool";
 let myStr = "Learning to code is ";
 myStr += someAdjective */
+
+/* 32.
+Use the .length property to set lastNameLength to the number of characters in lastName.
+
+
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+lastNameLength = lastName.length; */
