@@ -428,3 +428,30 @@ function myOutfit() {
 }
 
 myOutfit(); */
+
+/* 55.
+Create a function addFive without any arguments. This function adds 5 to the sum variable, but its returned value is undefined.
+
+let sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+
+function addFive() {
+  sum = sum + 5;
+}
+
+addThree();
+addFive(); */
+
+/* 56.
+Call the processArg function with an argument of 7 and assign its return value to the variable processed.
+
+let processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+processed = processArg(7); */
