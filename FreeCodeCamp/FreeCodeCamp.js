@@ -471,3 +471,10 @@ let testArr = [1, 2, 3, 4, 5];
 console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr)); */
+
+/* 58.
+Modify the welcomeToBooleans function so that it returns true instead of false when the run button is clicked.
+
+function welcomeToBooleans() {
+  return true; 
+} */
