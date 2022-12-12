@@ -101,7 +101,7 @@ function countPositivesSumNegatives(input) {
       return newArr;
     }
    */
-  
+
 /*   7. 
   Write a function which calculates the average of the numbers in a given list.
   Note: Empty arrays should return 0.
@@ -116,7 +116,19 @@ function countPositivesSumNegatives(input) {
     }
 
   console.log(findAverage([2,3,4])); */
-    
 
-    
+/* 8.
+You will be given an array a and a value x.All you need to do is check whether the provided array contains the value.
+Array can contain numbers or strings.X can be either.
+Return true if the array contains the value, false if not. 
+
+  function check(a, x) {
+    for (let i = 0; i < a.length; i++) {
+      if (a[i] === x) {
+        return true;
+      }
+    }
+    return false;
+  } */
+
 
