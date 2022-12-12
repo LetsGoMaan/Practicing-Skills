@@ -975,4 +975,16 @@ const testObj = {
 };
 
 const entreeValue = testObj["an entree"];   
-const drinkValue = testObj["the drink"];    */
+const drinkValue = testObj["the drink"]; */
+
+/* 86.
+Set the playerNumber variable to 16. Then, use the variable to look up the player's name and assign it to player.
+
+const testObj = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas"
+};
+
+const playerNumber = 16; 
+const player = testObj[playerNumber];  */
