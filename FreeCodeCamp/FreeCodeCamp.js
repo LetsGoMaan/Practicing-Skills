@@ -1178,3 +1178,16 @@ function updateRecords(records, id, prop, value) {
 }
 
 updateRecords(recordCollection, 5439, 'artist', 'ABBA'); */
+
+/* 96.
+Add the numbers 5 through 0 (inclusive) in descending order to myArray using a while loop.
+
+const myArray = [];
+let i = 5;
+
+while(i >= 0) {
+  myArray.push(i);
+  i--;
+}
+
+console.log(myArray); */
