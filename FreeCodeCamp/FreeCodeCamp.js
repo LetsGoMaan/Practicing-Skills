@@ -1326,3 +1326,12 @@ Change randomFraction to return a random number instead of returning 0.
 function randomFraction() {
   return Math.random();
 } */
+
+/* 106.
+Use this technique to generate and return a random whole number between 0 and 9.
+
+function randomWholeNum() {
+
+
+  return Math.floor(Math.random() * 10);
+} */
