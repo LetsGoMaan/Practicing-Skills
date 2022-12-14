@@ -1319,3 +1319,10 @@ for (let i = 0; i < contacts.length; i++) {
 }
 
 lookUpProfile("Akira", "likes"); */
+
+/* 105.
+Change randomFraction to return a random number instead of returning 0.
+
+function randomFraction() {
+  return Math.random();
+} */
