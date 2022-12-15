@@ -353,3 +353,20 @@ Simple, remove the spaces from the string, then return the resultant string.
 function noSpace(x){
   return x.split(' ').join('');
   } */
+
+/* 23.
+Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
+
+Note: input will never be an empty string
+
+function fakeBin(x){
+  let newX = '';
+ for ( let i = 0; i < x.length; i++) {
+   if (x[i] < 5) {
+     newX += 0;
+   } else {
+     newX +=1;
+   }
+ }
+  return newX;
+} */
