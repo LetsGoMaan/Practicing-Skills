@@ -167,3 +167,18 @@ var summation = function (num) {
 console.log(summation(3));
  */
 
+/* 11. 
+An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
+
+function isIsogram(str){
+  let newStr = str.toLowerCase();
+ for(let i = 0; i < newStr.length; i++) {
+   for( let j = i + 1; j < newStr.length; j++) {
+     if(newStr[i] === newStr[j]) {
+       return false;
+     }
+   }
+ }
+ return true;
+} */
+
