@@ -502,3 +502,10 @@ function basicOp(operation, value1, value2) {
   }
    
  } */
+
+/*  32. 
+ Write a function which converts the input string to uppercase.
+
+ function makeUpperCase(str) {
+  return str.toUpperCase();
+} */
