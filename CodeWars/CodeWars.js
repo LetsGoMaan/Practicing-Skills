@@ -509,3 +509,18 @@ function basicOp(operation, value1, value2) {
  function makeUpperCase(str) {
   return str.toUpperCase();
 } */
+
+/* 33.
+Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and the negatives become positives.
+
+function invert(array) {
+  let newArr = [];
+ for(let i = 0; i < array.length; i++) {
+   if( array[i] < 0) {
+     newArr.push(-array[i]);
+   } else {
+     newArr.push(-array[i]);
+   }
+ }
+return newArr;
+} */
