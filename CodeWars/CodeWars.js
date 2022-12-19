@@ -577,3 +577,17 @@ function setAlarm(employed, vacation){
    return true;
    }
  } */
+
+/*  38.
+ Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
+
+ function removeExclamationMarks(s) {
+  let newS = s.split('');
+  let result = '';
+  for(let i = 0; i < newS.length; i++) {
+    if(newS[i] != '!') {
+      result += newS[i];
+    } 
+  }
+  return result;
+} */
