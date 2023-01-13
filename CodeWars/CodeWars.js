@@ -630,10 +630,25 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 // }
 
 // 43.
-// Write a function to split a string and convert it into an array of words.
+// // Write a function to split a string and convert it into an array of words.
+// //
+// //     function stringToArray(string){
+// //     return string.split(' ')
+// //     // code code code
+// //
+// // }
+// 43.
+// Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.
 //
-//     function stringToArray(string){
-//     return string.split(' ')
-//     // code code code
+//     The output should be two capital letters with a dot separating them.
 //
+//     It should look like this:
+//
+// Sam Harris => S.H
+//
+// patrick feeney => P.F
+//
+// function abbrevName(name){
+//     arrName = name.split(' ');
+//     return (arrName[0][0].toUpperCase() + '.' +  arrName[1][0].toUpperCase())
 // }
