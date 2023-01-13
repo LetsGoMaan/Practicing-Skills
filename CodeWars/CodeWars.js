@@ -433,7 +433,7 @@ function DNAStrand(dna){
    return newDna;
 } */
 
-    
+
 /* 28. 
 Given an array of integers as strings and numbers, return the sum of the array values as if all were numbers.
 Return your answer as a number.
@@ -449,7 +449,7 @@ function sumMix(x){
    }
    return sum;
  } */
- 
+
 /* 29.
 Nathan loves cycling.
 Because Nathan knows it is important to stay hydrated, he drinks 0.5 litres of water per hour of cycling.
@@ -609,4 +609,15 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //
 //     function reverseWords(str){
 //     return str.split(' ').reverse().join(' '); // reverse those words
+// }
+
+// 41.
+// Complete the method that takes a boolean value and return a "Yes" string for true, or a "No"string for false.
+//                                                                                               function boolToWord(bool)
+// {
+//     if (bool) {
+//         return "Yes"
+//     } else {
+//         return "No"
+//     }
 // }
