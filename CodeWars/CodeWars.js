@@ -602,3 +602,11 @@ Function should return true if it is possible and false if not.
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   return distanceToPump <= mpg * fuelLeft;
 }; */
+
+// 40.
+// Complete the solution so that it reverses all of the words within the string passed in.
+// Words are separated by exactly one space and there are no leading or trailing spaces.
+//
+//     function reverseWords(str){
+//     return str.split(' ').reverse().join(' '); // reverse those words
+// }
