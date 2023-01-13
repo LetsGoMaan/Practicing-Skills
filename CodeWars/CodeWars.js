@@ -628,3 +628,12 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     function cockroachSpeed(s) {
 //     return Math.floor(s * 100000 / 3600);
 // }
+
+// 43.
+// Write a function to split a string and convert it into an array of words.
+//
+//     function stringToArray(string){
+//     return string.split(' ')
+//     // code code code
+//
+// }
