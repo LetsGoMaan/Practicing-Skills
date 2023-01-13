@@ -781,3 +781,17 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 // function removeEveryOther(arr){
 //     return arr.filter((item, index) =>!(index % 2))
 // }
+
+// 52.
+// Implement a function which convert the given boolean value into its string representation.
+//
+//     function booleanToString(b){
+//     switch(b) {
+//         case true:
+//             return 'true';
+//             break;
+//         case false:
+//             return 'false';
+//             break;
+//     }
+// }
