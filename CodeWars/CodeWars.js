@@ -795,3 +795,12 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //             break;
 //     }
 // }
+
+// 53.
+// Create a function that gives a personalized greeting. This function takes two parameters: name and owner.
+//
+//     Use conditionals to return the proper message:
+//
+//     function greet (name, owner) {
+//         return name === owner ? 'Hello boss' : 	'Hello guest';
+//     }
