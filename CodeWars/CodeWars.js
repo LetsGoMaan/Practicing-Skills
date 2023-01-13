@@ -652,3 +652,10 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     arrName = name.split(' ');
 //     return (arrName[0][0].toUpperCase() + '.' +  arrName[1][0].toUpperCase())
 // }
+
+// 44. Code as fast as you can! You need to double the integer and return it.
+//
+//     function doubleInteger(i) {
+//     // i will be an integer. Double it and return it.
+//     return i * 2;
+// }
