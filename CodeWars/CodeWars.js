@@ -1031,3 +1031,10 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 // var copaDelReyGoals = 5
 //
 // var totalGoals = laLigaGoals + championsLeagueGoals + copaDelReyGoals;
+
+// 66.
+// Now you have to write a function that takes an argument and returns the square of it.
+//
+//     function square (x) {
+//     return x ** 2
+// }
