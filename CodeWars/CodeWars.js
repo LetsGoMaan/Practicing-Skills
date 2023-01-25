@@ -1112,3 +1112,14 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     function _if(bool, func1, func2) {
 //     return bool ? func1() : func2()
 // }
+
+// 74.
+// Write a function that accepts an integer n and a string s as parameters, and returns a string of s repeated exactly n times.
+//
+//     function repeatStr (n, s) {
+//     let str = ''
+//     for ( let i = 0; i < n; i++) {
+//         str += s;
+//     }
+//     return str;
+// }
