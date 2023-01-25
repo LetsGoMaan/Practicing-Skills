@@ -1091,3 +1091,16 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 // function mango(quantity, price){
 //     return quantity * price - Math.floor(quantity / 3) * price;
 // }
+
+// 72.
+// Oh no, Timmy's created an infinite loop! Help Timmy find and fix the bug in his unfinished for loop!
+//
+// function createArray(number){
+//     var newArray = [];
+//
+//     for(var counter = 1; counter <= number; counter++){
+//         newArray.push(counter);
+//     }
+//
+//     return newArray;
+// }
