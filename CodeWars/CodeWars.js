@@ -1165,3 +1165,12 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     function shortcut (string) {
 //     return string.replace(/[aeiou]/gi, '')
 // }
+
+// 78.
+// This function should return an object, but it's not doing what's intended. What's wrong?
+//
+// function mystery() {
+//     var results =
+//         {sanity: 'Hello'};
+//     return results
+// }
