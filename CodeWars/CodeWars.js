@@ -1181,3 +1181,12 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     function sayHello(name) {
 //         return `Hello, ${name}`
 //     }
+
+// 80.
+// Write a function that checks if a given string (case insensitive) is a palindrome.
+//
+//     function isPalindrome(x) {
+//
+//     const reverse = x.toLowerCase().split('').reverse().join('');
+//     return x.toLowerCase() === reverse ? true : false
+// }
