@@ -1190,3 +1190,10 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     const reverse = x.toLowerCase().split('').reverse().join('');
 //     return x.toLowerCase() === reverse ? true : false
 // }
+
+// 81.
+// Oh no! Timmy hasn't followed instructions very carefully and forgot how to use the new String Template feature, Help Timmy with his string template so it works as he expects!
+//
+// function buildString(...template){
+//     return `I like ${template.join(', ')}!`;
+// }
