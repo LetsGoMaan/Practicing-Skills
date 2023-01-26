@@ -1158,3 +1158,10 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 // function howManyLightsabersDoYouOwn(name) {
 //     return name === 'Zach' ? 18 : 0;
 // }
+
+// 77.
+// Create a function called shortcut to remove the lowercase vowels (a, e, i, o, u ) in a given string.
+//
+//     function shortcut (string) {
+//     return string.replace(/[aeiou]/gi, '')
+// }
