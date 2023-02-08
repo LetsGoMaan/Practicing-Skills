@@ -1448,3 +1448,16 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     var celsius = (temperature - 32) * (5/9)
 //     return celsius
 // }
+
+// 99.
+// Write a function that always returns 5
+//
+// Sounds easy right? Just bear in mind that you can't use any of the following characters: 0123456789*+-/
+//
+// Good luck :)
+//
+// function unusualFive() {
+//     let arr = ['a','b','c','d','e'];
+//     return arr.length
+// }
+
