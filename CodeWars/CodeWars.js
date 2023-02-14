@@ -1580,3 +1580,15 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     }
 //     return total;
 // }
+
+// 109.
+// When provided with a letter, return its position in the alphabet.
+//
+// Input :: "a"
+//
+// Ouput :: "Position of alphabet: 1"
+//
+// function position(letter){
+//     let position = letter.charCodeAt() - 96
+//     return `Position of alphabet: ${position}`
+// }
