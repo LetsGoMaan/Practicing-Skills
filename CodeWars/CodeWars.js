@@ -1232,7 +1232,248 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     function problem(x){
 //     return typeof x === 'string' ? 'Error' : x * 50 + 6;
 // }
-// 86.
+
+// 86. This series of katas will introduce you to basics of doing geometry with computers.
+//
+//     Point objects have attributes x and y.
+//
+//     Write a function calculating distance between Point a and Point b.
+//
+//     Tests compare expected result and actual answer with tolerance of 1e-6.
+//
+//     function distanceBetweenPoints(a, b) {
+//     return Math.sqrt(Math.pow(b.x - a.x, 2) +
+//         Math.pow(b.y - a.y, 2) * 1.0);
+// }
+
+// 87. You're at the zoo... all the meerkats look weird. Something has gone terribly wrong - someone has gone and switched their heads and tails around!
+//
+// Save the animals by switching them back. You will be given an array which will have three values (tail, body, head). It is your job to re-arrange the array so that the animal is the right way round (head, body, tail).
+//
+//     Same goes for all the other arrays/lists that you will get in the tests: you have to change the element positions with the same exact logics
+//
+// Simples!
+//
+//     function fixTheMeerkat(arr) {
+//         return arr.reverse()
+//
+//     }
+
+// 88.
+// You take your son to the forest to see the monkeys. You know that there are a certain number there (n), but your son is too young to just appreciate the full number, he has to start counting them from 1.
+//
+// As a good parent, you will sit and count with him. Given the number (n), populate an array with all numbers up to and including that number, but excluding zero.
+//
+//     function monkeyCount(n) {
+//     let arr = [];
+//     for(let i = 1; i <= n; i++) {
+//         arr.push(i)
+//     }
+//     return arr
+// }
+
+// 89.
+// Complete the function which returns the weekday according to the input number:
+//
+//     1 returns "Sunday"
+// 2 returns "Monday"
+// 3 returns "Tuesday"
+// 4 returns "Wednesday"
+// 5 returns "Thursday"
+// 6 returns "Friday"
+// 7 returns "Saturday"
+// Otherwise returns "Wrong, please enter a number between 1 and 7"
+//
+// function whatday(num) {
+//     switch (num) {
+//         case 1 :
+//             return "Sunday"
+//             break;
+//         case 2 :
+//             return "Monday"
+//             break;
+//         case 3 :
+//             return "Tuesday"
+//             break;
+//         case 4 :
+//             return "Wednesday"
+//             break;
+//         case 5 :
+//             return "Thursday"
+//             break;
+//         case 6 :
+//             return "Friday"
+//             break;
+//         case 7 :
+//             return "Saturday"
+//             break;
+//         default:
+//             return "Wrong, please enter a number between 1 and 7"
+//     }
+//
+// }
+
+// 90.
+// The Story:
+//     Bob is working as a bus driver. However, he has become extremely popular amongst the city's residents. With so many passengers wanting to get aboard his bus, he sometimes has to face the problem of not enough space left on the bus! He wants you to write a simple program telling him if he will be able to fit all the passengers.
+//
+// Task Overview:
+//     You have to write a function that accepts three parameters:
+//
+//     cap is the amount of people the bus can hold excluding the driver.
+//     on is the number of people on the bus excluding the driver.
+//     wait is the number of people waiting to get on to the bus excluding the driver.
+//     If there is enough space, return 0, and if there isn't, return the number of passengers he can't take.
+//
+//     function enough(cap, on, wait) {
+//     return cap - on > wait ? 0 : Math.abs(cap - on - wait);
+// }
+
+// 91.
+// The purpose of this kata is to work out just how many bottles of duty free whiskey you would have to buy such that the saving over the normal high street price would effectively cover the cost of your holiday.
+//
+//     You will be given the high street price (normPrice), the duty free discount (discount) and the cost of the holiday.
+//
+//     For example, if a bottle cost £10 normally and the discount in duty free was 10%, you would save £1 per bottle. If your holiday cost £500, the answer you should return would be 500.
+//
+// All inputs will be integers. Please return an integer. Round down.
+//
+//     function dutyFree(normPrice, discount, hol){
+//     return Math.floor(hol / (normPrice * (discount / 100) ))
+// }
+
+// 92.
+// You're writing code to control your town's traffic lights. You need a function to handle each change from green, to yellow, to red, and then to green again.
+//
+//     Complete the function that takes a string as an argument representing the current state of the light and returns a string representing the state the light should change to.
+//
+//     For example, when the input is green, output should be yellow.
+//
+//     function updateLight(current) {
+//     switch(current) {
+//         case "green": return "yellow"
+//         case "yellow": return "red"
+//         case "red": return "green"
+//     }
+//
+// }
+
+// 93.
+// Given an array of integers, return a new array with each value doubled.
+//
+//     For example:
+//
+//     [1, 2, 3] --> [2, 4, 6]
+//
+// function maps(x){
+//     return x.map(el => el * 2);
+// }
+
+// 94.
+// Write a function that calculates the original product price, without VAT.
+//
+//     Example
+// If a product price is 200.00 and VAT is 15%, then the final product price (with VAT) is: 200.00 + 15% = 230.00
+//
+// Thus, if your function receives 230.00 as input, it should return 200.00
+//
+// Notes:
+//
+//     VAT is always 15% for the purposes of this Kata.
+//     Round the result to 2 decimal places.
+//     If null value given then return -1
+//
+// //return price without vat
+// function excludingVatPrice(price){
+//     return price === null ? -1:  +(price - (price * 15)/(100 + 15)).toFixed(2)
+// }
+
+// 95.
+// *** No Loops Allowed ***
+//
+// You will be given an array a and a value x. All you need to do is check whether the provided array contains the value, without using a loop.
+//
+//     Array can contain numbers or strings. x can be either. Return true if the array contains the value, false if not. With strings you will need to account for case.
+//
+// Looking for more, loop-restrained fun? Check out the other kata in the series:
+//
+//     function check(a,x){
+//         return a.includes(x)
+//     };
+
+// 96.
+// Create a method that accepts a list and an item, and returns true if the item belongs to the list, otherwise false.
+//
+//     function include(arr, item){
+//     return arr.includes(item)
+// }
+
+// 97.
+// This Kata is intended as a small challenge for my students
+//
+// All Star Code Challenge #18
+//
+// Create a function that accepts 2 string arguments and returns an integer of the count of occurrences the 2nd argument is found in the first one.
+//
+//     If no occurrences can be found, a count of 0 should be returned.
+//
+//     function strCount(str, letter){
+//
+//     if(str.length === 0) {
+//         return 0
+//     } else {
+//         const count = [...str].filter(el => el === letter).length
+//         return count
+//     }
+// }
+
+// 98.
+// Your friend is traveling abroad to the United States so he wrote a program to convert fahrenheit to celsius. Unfortunately his code has some bugs.
+//
+//     Find the errors in the code to get the celsius converter working properly.
+//
+//     To convert fahrenheit to celsius:
+//
+//     celsius = (fahrenheit - 32) * (5/9)
+//
+// function weatherInfo (temp) {
+//     var c = convertToCelsius(temp)
+//     if (c < 0)
+//         return (c + " is freezing temperature")
+//     else
+//         return (c + " is above freezing temperature")
+// }
+//
+// function convertToCelsius (temperature) {
+//     var celsius = (temperature - 32) * (5/9)
+//     return celsius
+// }
+
+// 99.
+// Write a function that always returns 5
+//
+// Sounds easy right? Just bear in mind that you can't use any of the following characters: 0123456789*+-/
+//
+// Good luck :)
+//
+// function unusualFive() {
+//     let arr = ['a','b','c','d','e'];
+//     return arr.length
+// }
+
+// 100.
+// Return a new array consisting of elements which are multiple of their own index in input array (length > 1).
+//
+//     function multipleOfIndex(array) {
+//     let newArr = []
+//     for( let i = 0; i < array.length; i++) {
+//         if(array[i] % i === 0) {
+//             newArr.push(array[i])
+//         }
+//     }
+//     return newArr;
+// }
+// 101.
 // You get any card as an argument. Your task is to return the suit of this card (in lowercase).
 //
 // function defineSuit(card) {
