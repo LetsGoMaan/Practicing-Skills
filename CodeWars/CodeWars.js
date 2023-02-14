@@ -1541,3 +1541,9 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 // function index(array, n){
 //     return  array.length - 1 < n ? -1 : array[n] ** n
 // }
+// 105.
+// Each number should be formatted that it is rounded to two decimal places. You don't need to check whether the input is a valid number because only valid numbers are used in the tests.
+//
+// function twoDecimalPlaces(n) {
+//     return +n.toFixed(2);
+// }
