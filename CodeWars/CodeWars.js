@@ -1232,3 +1232,15 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     function problem(x){
 //     return typeof x === 'string' ? 'Error' : x * 50 + 6;
 // }
+// 86.
+// You get any card as an argument. Your task is to return the suit of this card (in lowercase).
+//
+// function defineSuit(card) {
+//  let arr = card.split('')
+//  switch(arr[arr.length - 1]) {
+//   case '♣': return 'clubs'
+//   case '♦': return 'diamonds'
+//   case '♥': return 'hearts'
+//   case '♠': return 'spades'
+//  }
+// }
