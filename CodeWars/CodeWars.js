@@ -1592,3 +1592,28 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     let position = letter.charCodeAt() - 96
 //     return `Position of alphabet: ${position}`
 // }
+
+// 110. An infinite number of shelves are arranged one above the other in a staggered fashion.
+//     The cat can jump either one or three shelves at a time: from shelf i to shelf i+1 or i+3 (the cat cannot climb on the shelf directly above its head),
+// Input
+// Start and finish shelf numbers (always positive integers, finish no smaller than start)
+//
+// Task
+// Find the minimum number of jumps to go from start to finish
+//
+// Example
+// Start 1, finish 5, then answer is 2 (1 => 4 => 5 or 1 => 2 => 5)
+//
+// function solution(start, finish) {
+//     let count = 0;
+//     while( start < finish) {
+//         if(finish - start < 3) {
+//             start +=1
+//             count++
+//         } else {
+//             start +=3
+//             count++
+//         }
+//     }
+//     return count
+// }
