@@ -1647,3 +1647,11 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     }
 //     return newArr
 // }
+
+// 113.
+// Given a 2D ( nested ) list ( array, vector, .. ) of size m * n, your task is to find the sum of the minimum values in each row.
+//     function sumOfMinimums(arr) {
+//     let total = 0;
+//     arr.map(el => el.sort((a, b) => a - b)).map(el => total+= el[0])
+//     return total
+// }
