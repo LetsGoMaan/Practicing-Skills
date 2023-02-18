@@ -1655,3 +1655,15 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     arr.map(el => el.sort((a, b) => a - b)).map(el => total+= el[0])
 //     return total
 // }
+
+// 114.
+// Debug   function getSumOfDigits that takes positive integer to calculate sum of its digits. Assume that argument is an integer.
+//
+//     function getSumOfDigits(integer) {
+//     var sum = 0;
+//     var digits =  integer.toString();
+//     for(var i = 0; i < digits.length; i++) {
+//         sum += +digits[i];
+//     }
+//     return sum;
+// }
