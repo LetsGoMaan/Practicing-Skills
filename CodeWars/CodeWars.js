@@ -1803,3 +1803,9 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //             return Math.floor(n / 2)
 //         }
 //     }
+
+// 122. Convert number to reversed array of digits
+//
+// function digitize(n) {
+//     return n.toString().split('').reverse().map(n => +n)
+// }
