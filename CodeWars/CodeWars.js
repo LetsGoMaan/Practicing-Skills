@@ -2076,3 +2076,27 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     function plural(n) {
 //     return n === 1 ? false : true
 // }
+
+// 141. ou received a whatsup message from an unknown number. Could it be from that girl/boy with a foreign accent you met yesterday evening?
+//
+//     Write a simple function to check if the string contains the word hallo in different languages.
+//
+//     These are the languages of the possible people you met the night before:
+//
+//     hello - english
+// ciao - italian
+// salut - french
+// hallo - german
+// hola - spanish
+// ahoj - czech republic
+// czesc - polish
+//
+// function validateHello(greetings) {
+//     const hi = ["hello", "ciao", "salut", "hallo", "hola", "ahoj", "czesc"]
+//     for(let i = 0; i < hi.length; i++) {
+//         if(greetings.toLowerCase().includes(hi[i])) {
+//             return true
+//         }
+//     }
+//     return false
+// }
