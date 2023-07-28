@@ -2312,3 +2312,26 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     function main (verb, noun) {
 //     return verb + noun
 // }
+
+// 157. Numbers ending with zeros are boring.
+//
+//     They might be fun in your world, but not here.
+//
+//     Get rid of them. Only the ending ones.
+//
+// 1450 -> 145
+// 960000 -> 96
+// 1050 -> 105
+// -1050 -> -105
+// Zero alone is fine, don't worry about it. Poor guy anyway
+//
+//
+// function noBoringZeros(n) {
+//     let num = n.toString()
+//     for(let i = num.length-1; i >= 0; i--) {
+//         if(num[i] !== '0') {
+//             return +(num.substring(0, i + 1));
+//         }
+//     }
+//     return n
+// }
