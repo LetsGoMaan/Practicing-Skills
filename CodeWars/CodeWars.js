@@ -2299,3 +2299,9 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     function binToDec(bin){
 //     return parseInt(bin, 2)
 // }
+
+// 155. Complete the function which converts hex number (given as a string) to a decimal number.
+//
+//     function hexToDec(hexString){
+//     return parseInt(hexString, 16)
+// }
