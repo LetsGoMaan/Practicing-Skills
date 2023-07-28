@@ -2277,3 +2277,19 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //         return "Hello, " + newName[0].toUpperCase() + newName.slice(1) + '!' ;
 //     }
 // }
+
+// 153.
+//
+// The code provided is supposed replace all the dots . in the specified String str with dashes -
+//
+// But it's not working properly.
+//
+// Task
+// Fix the bug so we can all go home early.
+//
+//     Notes
+// String str will never be null.
+//
+//     const replaceDots = function(str) {
+//     return str.replaceAll('.', '-');
+// }
