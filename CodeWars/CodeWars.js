@@ -2293,3 +2293,9 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     const replaceDots = function(str) {
 //     return str.replaceAll('.', '-');
 // }
+
+// 154. Complete the function which converts a binary number (given as a string) to a decimal number.
+//
+//     function binToDec(bin){
+//     return parseInt(bin, 2)
+// }
