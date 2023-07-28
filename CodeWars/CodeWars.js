@@ -2305,3 +2305,10 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     function hexToDec(hexString){
 //     return parseInt(hexString, 16)
 // }
+
+// 156. Grasshopper - Function syntax debugging
+// A student was working on a function and made some syntax mistakes while coding. Help them find their mistakes and fix them.
+//
+//     function main (verb, noun) {
+//     return verb + noun
+// }
