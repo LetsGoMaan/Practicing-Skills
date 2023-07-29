@@ -2372,3 +2372,9 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     function correctTail(body, tail) {
 //     return body[body.length-1] === tail ? true : false
 // }
+
+// 161. Replace all vowel to exclamation mark in the sentence. aeiouAEIOU is vowel.
+//
+//     function replace(s){
+//     return s.replace(/[aeiouAEIOU]/g, '!')
+// }
