@@ -26,3 +26,24 @@
 //     function checkTree(root: TreeNode | null): boolean {
 //     return root.val === root.left.val + root.right.val
 // };
+
+// 1672. Richest Customer Wealth
+//
+// function maximumWealth(accounts: number[][]): number {
+//     var sums = [];
+//     let richestCustomer = 0
+//     for (var i = 0; i < accounts.length; i++) {
+//         var innerArray = accounts[i];
+//         var sum = 0;
+//         for (var j = 0; j < innerArray.length; j++) {
+//             sum += innerArray[j];
+//         }
+//         sums.push(sum);
+//     }
+//     for(let z = 0; z<sums.length; z++) {
+//         if(sums[z] > richestCustomer) {
+//             richestCustomer = sums[z]
+//         }
+//     }
+//     return richestCustomer
+// };
