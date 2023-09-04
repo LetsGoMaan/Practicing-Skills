@@ -129,9 +129,12 @@
 //     function twoSum(nums: number[], target: number): number[] {
 //     let indices = []
 //     for(let i = 0; i<nums.length; i++) {
-//         if(nums[i] + nums[i + 1] === target) {
-//             indices.push(i, i+1)
+//         for(let j = i + 1; j < nums.length; j++) {
+//             if(nums[j] == target - nums[i]) {
+//             indices.push(i, j)
+//             }
 //         }
 //     }
 //     return indices
+// };
 // };
