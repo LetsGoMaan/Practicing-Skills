@@ -212,3 +212,20 @@
 //         return sum
 //     })
 // };
+
+// 2620. Counter
+// Given an integer n, return a counter function. This counter function initially returns n and then returns 1 more than the previous value every subsequent time it is called (n, n + 1, n + 2, etc).
+//
+//     function createCounter(n: number): () => number {
+//     let count = n;
+//     let isFirstCall = true;
+//     return function() {
+//         if (isFirstCall) {
+//             isFirstCall = false;
+//             return count;
+//         } else {
+//             count++;
+//             return count;
+//         }
+//     };
+// }
