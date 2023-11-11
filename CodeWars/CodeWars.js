@@ -2428,3 +2428,13 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 // function reverse(string){
 //     return string.split(' ').reverse().join(' ')
 // }
+
+// 165.
+// Create a method that takes as input a name, city, and state to welcome a person. Note that name will be an array consisting of one or more values that should be joined together with one space between each, and the length of the name array in test cases will vary.
+//
+//     function sayHello( name, city, state ) {
+//     const wholeName = name.reduce((acc, value) => {
+//         return `${acc} ${value}`
+//     })
+//     return `Hello, ${wholeName}! Welcome to ${city}, ${state}!`
+// }
