@@ -2565,3 +2565,20 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     const grade = exponent - 1
 //     return `${num.toString()}x^${grade.toString()}`
 // }
+// 174. Your Job
+// Find the sum of all multiples of n below m
+//
+// Keep in Mind
+// n and m are natural numbers (positive integers)
+// m is excluded from the multiples
+//
+// function sumMul(n,m){
+//     if(n >= m) {
+//         return 'INVALID'
+//     }
+//     let sum = 0
+//     for(let i = 0; i < m; i=i+n) {
+//         sum+=i
+//     }
+//     return sum
+// }
