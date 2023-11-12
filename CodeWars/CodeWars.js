@@ -2582,3 +2582,16 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     }
 //     return sum
 // }
+
+// 175. Find Mean
+// Find the mean (average) of a list of numbers in an array.
+//
+//     var findAverage = function (nums) {
+// //   let quantity = nums.length
+// //   let sum = nums.reduce((acc, value) => {
+// //     return acc+value
+// //   },0)
+// //   return sum / quantity
+//     return nums.reduce((acc, value) => acc+value) / nums.length
+// }
+
