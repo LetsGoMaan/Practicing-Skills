@@ -2559,3 +2559,9 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //         return false
 //     }
 // };
+// 173. Your function should multiply the two numbers, and then subtract 1 from the exponent. Then, it has to return an expression (like 28x^7). "^1" should not be truncated when exponent = 2.
+// function derive(coefficient,exponent) {
+//     const num = coefficient * exponent
+//     const grade = exponent - 1
+//     return `${num.toString()}x^${grade.toString()}`
+// }
