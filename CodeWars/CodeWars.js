@@ -2514,3 +2514,7 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 // function animal(obj){
 //     return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`
 // }
+// 170. Add the value "codewars" to the array websites 1,000 times.
+//     var websites = []
+// websites.length = 1000
+// websites.fill('codewars', 0, 1000)
