@@ -2819,3 +2819,16 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 // 187. This method, which is supposed to return the result of dividing its first argument by its second, isn't always returning correct values. Fix it.
 //
 // const solve = (x, y) => x / y
+
+// 188. Objective
+// Given two integer arrays a, b, both of length >= 1, create a program that returns true if the sum of the squares of each element in a is strictly greater than the sum of the cubes of each element in b.
+//
+//     function arrayMadness(a, b) {
+//     const  firstArrSquarSum = a.reduce((acc, value) => {
+//         return acc + value**2
+//     },0)
+//     const secondArrCubeSum = b.reduce((acc,value) => {
+//         return acc + value**3
+//     },0)
+//     return firstArrSquarSum > secondArrCubeSum
+// }
