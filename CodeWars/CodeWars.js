@@ -2745,3 +2745,9 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //         return acc + value
 //     },0) * 20
 // }
+
+// 184. Return the type of the sum of the two arguments
+//
+// function typeOfSum(a, b) {
+//     return typeof (a + b)
+// }
