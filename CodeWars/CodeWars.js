@@ -2872,3 +2872,24 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     }
 //     return days;
 // }
+
+// 191. At the annual family gathering, the family likes to find the oldest living family member’s age and the youngest family member’s age and calculate the difference between them.
+//
+//     You will be given an array of all the family members' ages, in any order. The ages will be given in whole numbers, so a baby of 5 months, will have an ascribed ‘age’ of 0. Return a new array (a tuple in Python) with [youngest age, oldest age, difference between the youngest and oldest age].
+//
+// function differenceInAges(ages){
+//     let minAge = ages[0]
+//     let maxAge = ages[0]
+//     let arr = []
+//     for(let i =0; i<ages.length;i++) {
+//         if(ages[i] < minAge) {
+//             minAge = ages[i]
+//         }
+//         if(ages[i] > maxAge) {
+//             maxAge = ages[i]
+//         }
+//     }
+//     let difference = maxAge - minAge
+//     arr.push(minAge,maxAge,difference)
+//     return arr
+// }
