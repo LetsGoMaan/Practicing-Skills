@@ -2913,3 +2913,17 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //
 // const sakuraFall = (v) => v <= 0 ? 0 : 80 * 5 / v
 
+// 194. You're re-designing a blog, and the blog's posts have the Weekday Month Day, time format for showing the date and time when a post was made, e.g., Friday May 2, 7pm.
+//
+//     You're running out of screen real estate, and on some pages you want to display a shorter format, Weekday Month Day that omits the time.
+//
+// Write a function that takes the website date/time in its original string format and returns the shortened format.
+//
+//     function shortenToDate(longDate) {
+//     let newDate = longDate.slice(0,-5)
+//     if(newDate.endsWith(',')) {
+//         return longDate.slice(0,-6)
+//     }
+//     return newDate
+// }
+
