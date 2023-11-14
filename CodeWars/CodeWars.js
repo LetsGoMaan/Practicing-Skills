@@ -2986,4 +2986,10 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //
 // const rainAmount = (mm) => mm >= 40 ? "Your plant has had more than enough water for today!" : `You need to give your plant ${40 - mm}mm of water`
 
+// 198. Get ASCII value of a character.
+//
+//     function getASCII(c){
+//     return c.charCodeAt(0)
+// }
+
 
