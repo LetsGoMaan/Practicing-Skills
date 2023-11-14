@@ -2893,3 +2893,8 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 //     arr.push(minAge,maxAge,difference)
 //     return arr
 // }
+
+// 192.
+// Create a function named combineNames that accepts two parameters (first and last name). The function should return the full name.
+//
+//     const combineNames = (firstName,lastName) =>`${firstName} ${lastName}`
